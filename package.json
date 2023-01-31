@@ -22,6 +22,7 @@
     "email": "simon@captaincodeman.com",
     "url": "https://www.captaincodeman.com/"
   },
+  "license": "MIT",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
