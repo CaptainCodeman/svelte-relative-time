@@ -27,7 +27,7 @@ The `use:action` version only runs on the client so it suitable for Single Page 
 #### Import the action:
 
 ```ts
-import { relativeTime } from 'svelte-relative-time`
+import { relativeTime } from 'svelte-relative-time'
 ```
 
 #### Apply to any HTML Element - the elements `.textContent` time will be set to the timestamp:
