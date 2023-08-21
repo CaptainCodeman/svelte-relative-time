@@ -1,16 +1,20 @@
 {
   "name": "svelte-relative-time",
-  "version": "0.0.3",
+  "description": "Efficient, lightweight, auto-updating timeago timestamps for Svelte",
+  "version": "0.0.4",
   "type": "module",
   "keywords": [
     "svelte",
     "component",
-    "canvas",
-    "image",
-    "pan",
-    "zoom",
-    "touch",
-    "gesture"
+    "ui",
+    "action",
+    "time",
+    "date",
+    "datetime",
+    "timestamp",
+    "timeago",
+    "relative",
+    "relative-time"
   ],
   "homepage": "https://captaincodeman.github.io/svelte-relative-time/",
   "repository": {
