@@ -10,7 +10,7 @@ Based partly on [Fast and Light Relative Time Strings in JS by Steve Sewell](htt
 - ✅ Component version enables SSR
 - ✅ Live updates by default (can be disabled)
 - ✅ Uses single interval timer for updating all components
-- ✅ Lightwight and GC friendly (single `Intl.RelativeTimeFormat` used per locale)
+- ✅ Lightweight and GC friendly (single `Intl.RelativeTimeFormat` used per locale)
 - ✅ Instance updates scheduled for new visible change
 - ✅ Instance updates synchronized so all happen together
 
@@ -63,4 +63,4 @@ const locale = 'en' // see note about on how to avoid hard coding this for SSR
 
 ## Performance
 
-The package is designed to be as lightweight as possible. A single timer is used (which only runs when there are any instances requiring live updates), a single `Intl.RelativeTimeFormat` instance per locale is created and re-used, and instances are only re-evaluated when their displayed value will next change. So even with thousands of instances shouldn't cause parformance issues.
+The package is designed to be as lightweight as possible. A single timer is used (which only runs when there are any instances requiring live updates), a single `Intl.RelativeTimeFormat` instance per locale is created and re-used, and instances are only re-evaluated when their displayed value will next change. So even with thousands of instances shouldn't cause performance issues.
