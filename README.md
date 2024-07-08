@@ -61,6 +61,10 @@ const locale = 'en' // see note about on how to avoid hard coding this for SSR
 <RelativeTime class="font-semibold" {date} {locale} />
 ```
 
+#### Custom Usage
+
+If you need to apply additional styling based on the relative time, you can create your own component to use the additional `seconds`, `count`, and `units` properties in a callback (together with the formatted text) that can be used to determine any CSS or other DOM output required. Checkout the "styled" route for an example.
+
 ## Performance
 
 The package is designed to be as lightweight as possible. A single timer is used (which only runs when there are any instances requiring live updates), a single `Intl.RelativeTimeFormat` instance per locale is created and re-used, and instances are only re-evaluated when their displayed value will next change. So even with thousands of instances shouldn't cause performance issues.
