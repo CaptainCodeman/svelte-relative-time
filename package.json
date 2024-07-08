@@ -53,20 +53,20 @@
 		"svelte": "^3.54.0 || ^4.0.0 || ^5.0.0"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^3.0.1",
-		"@sveltejs/kit": "^2.5.7",
-		"@sveltejs/package": "^2.3.1",
-		"@sveltejs/vite-plugin-svelte": "^3.1.0",
-		"@types/node": "^20.12.7",
+		"@sveltejs/adapter-static": "^3.0.2",
+		"@sveltejs/kit": "^2.5.18",
+		"@sveltejs/package": "^2.3.2",
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"@types/node": "^20.14.10",
 		"autoprefixer": "^10.4.19",
-		"postcss": "^8.4.38",
-		"postcss-load-config": "^5.0.3",
-		"publint": "^0.2.7",
-		"svelte": "^4.2.15",
-		"svelte-check": "^3.7.0",
-		"tailwindcss": "^3.4.3",
-		"tslib": "^2.6.2",
-		"typescript": "^5.4.5",
-		"vite": "^5.2.10"
+		"postcss": "^8.4.39",
+		"postcss-load-config": "^6.0.1",
+		"publint": "^0.2.8",
+		"svelte": "^4.2.18",
+		"svelte-check": "^3.8.4",
+		"tailwindcss": "^3.4.4",
+		"tslib": "^2.6.3",
+		"typescript": "^5.5.3",
+		"vite": "^5.3.3"
 	}
 }
