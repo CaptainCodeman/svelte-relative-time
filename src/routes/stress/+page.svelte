@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { relativeTime } from '$lib'
+	import { relativeTime } from 'svelte-relative-time'
 
 	const count = new Array(10000)
 	const date = Date.now()
@@ -10,6 +10,6 @@
 	}
 </script>
 
-{#each count as _, i}
+{#each count as _}
 	<span class="inline-block w-32" use:relativeTime={{ date: randomDate(), locale }} />
 {/each}

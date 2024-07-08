@@ -1,5 +1,5 @@
 <script lang="ts">
-	import RelativeTime from '$lib'
+	import RelativeTime from 'svelte-relative-time'
 
 	const deltas = [100000000000, 10000000000, 1000000000, 100000000, 10000000, 100000, 90000, 80000, 70000, 60000, 50000, 40000, 30000, 20000, 10000]
 
