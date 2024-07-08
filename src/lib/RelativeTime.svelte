@@ -9,7 +9,7 @@
 	let instance = new Object()
 	let text = ''
 
-	register(instance, date, locale, live, value => (text = value))
+	register(instance, date, locale, live, value => ({ text } = value))
 
 	onDestroy(() => unregister(instance))
 </script>
