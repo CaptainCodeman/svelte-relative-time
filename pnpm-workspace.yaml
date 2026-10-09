@@ -1,3 +1,5 @@
+packages:
+  - '.'
 allowBuilds:
   '@sveltejs/kit': false
   esbuild: false
