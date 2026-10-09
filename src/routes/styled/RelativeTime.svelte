@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte'
-	import { register, unregister } from 'svelte-relative-time'
+	import { register, unregister } from '#lib'
 
 	export let date: Date | number
 	export let locale: string

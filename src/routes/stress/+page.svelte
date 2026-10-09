@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { relativeTime } from 'svelte-relative-time'
+	import { relativeTime } from '#lib'
 
 	const count = new Array(10000)
 	const date = Date.now()
