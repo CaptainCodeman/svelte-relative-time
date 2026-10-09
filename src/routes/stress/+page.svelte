@@ -11,5 +11,5 @@
 </script>
 
 {#each count as _}
-	<span class="inline-block w-32" use:relativeTime={{ date: randomDate(), locale }} />
+	<span class="inline-block w-32" {@attach relativeTime({ date: randomDate(), locale })}></span>
 {/each}

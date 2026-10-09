@@ -1,12 +1,12 @@
 # svelte-relative-time
 
-Tiny Svelte action (620 byte) and Component to render relative times.
+Tiny Svelte attachment (620 byte) and Component to render relative times.
 
 Based partly on [Fast and Light Relative Time Strings in JS by Steve Sewell](https://www.builder.io/blog/relative-time) with output rounded to the nearest unit and live updates with a single interval timer.
 
 ## Features
 
-- ✅ Action version is only 1006 bytes minified / 620 bytes gzipped
+- ✅ Attachment version is only 1006 bytes minified / 620 bytes gzipped
 - ✅ Component version enables SSR
 - ✅ Live updates by default (can be disabled)
 - ✅ Uses single interval timer for updating all components
@@ -20,20 +20,22 @@ Install using your package manager of choice:
 
     pnpm i svelte-relative-time
 
-### use:action Version
+### {@attach} Attachment Version
 
-The `use:action` version only runs on the client so it suitable for Single Page Apps or when Server Side Rendering of timestamps isn't important.
+The attachment version only runs on the client so it suitable for Single Page Apps or when Server Side Rendering of timestamps isn't important.
 
-#### Import the action:
+Requires Svelte 5.29 or later.
+
+#### Import the attachment:
 
 ```ts
 import { relativeTime } from 'svelte-relative-time'
 ```
 
-#### Apply to any HTML Element - the elements `.textContent` time will be set to the timestamp:
+#### Apply to any HTML Element — the element's `.textContent` will be set to the timestamp:
 
 ```svelte
-<span use:relativeTime={options} />
+<span {@attach relativeTime(options)}></span>
 ```
 
 Options include:

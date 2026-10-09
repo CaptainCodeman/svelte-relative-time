@@ -1,0 +1,6 @@
+allowBuilds:
+  '@sveltejs/kit': false
+  esbuild: false
+  svelte-preprocess: false
+minimumReleaseAgeExclude:
+  - '@types/node@26.6.5'
